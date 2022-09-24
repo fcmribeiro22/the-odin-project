@@ -1,0 +1,19 @@
+p{
+    background-color: #ffa7a7;
+    font-family: Verdana, "DejaVu Sans",  sans-serif;
+}
+
+.coolerclass{
+    font-size: 36px;
+}
+
+#green_id{
+    background-color: #80FF80;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#blue_id{
+    color: blue;
+    font-size: 36px;
+}
