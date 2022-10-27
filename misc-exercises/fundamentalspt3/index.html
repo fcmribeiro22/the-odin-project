@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add7 (addNumber){
+            addNumber= (addNumber + 7);
+            return addNumber;
+
+        }
+
+        console.log(add7(5));
+
+
+        function multiply (number1,number2) {
+            multiply= (number1 * number2);
+            return multiply;
+        }
+
+        console.log(multiply(4, 5));
+
+        function capitalize (inputString){
+            allLowerCase= inputString.toLowerCase();
+            firstLetterCap= allLowerCase.charAt(0).toUpperCase() + allLowerCase.slice(1);
+            return firstLetterCap;
+
+        }
+        
+        console.log(capitalize("AIUSIUASHIUDHAISUDAIUSD"));
+        
+        function lastletter(inputLastLetter){
+            showLastLetter= inputLastLetter.slice(-1);
+            return showLastLetter;
+        }
+
+        console.log (lastletter("Novidades"));
+
+        //Other Method
+
+        function lastletter2(inputLastLetter){
+            charNumber= inputLastLetter.length;
+            lastLetterOnly= inputLastLetter.charAt(charNumber - 1)
+            return lastLetterOnly;
+        }
+
+        console.log(lastletter2("Novidades"));
+
+
+            
+
+
+    </script>
+
+</body>
+</html>
